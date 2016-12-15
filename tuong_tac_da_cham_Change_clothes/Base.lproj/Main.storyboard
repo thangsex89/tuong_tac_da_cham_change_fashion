@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="DQ2-On-WsZ" userLabel="background">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="model.png" translatesAutoresizingMaskIntoConstraints="NO" id="XRr-5f-2uN" userLabel="model">
+                                <rect key="frame" x="0.0" y="181" width="143" height="425"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cabinet.png" translatesAutoresizingMaskIntoConstraints="NO" id="hQ2-Ib-Gxd" userLabel="cabinnet">
+                                <rect key="frame" x="135" y="0.0" width="240" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="giaydo1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xeb-7S-eQE" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="188" y="525" width="33" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="giaydo2.png" translatesAutoresizingMaskIntoConstraints="NO" id="fQC-Nf-Qfm" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="229" y="525" width="33" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ao1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rwe-2t-ZKc" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="188" y="52" width="52" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ao2.png" translatesAutoresizingMaskIntoConstraints="NO" id="M3w-gW-pAf" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="239" y="52" width="52" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ao3.png" translatesAutoresizingMaskIntoConstraints="NO" id="oZT-IE-GH1" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="188" y="181" width="52" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ao4.png" translatesAutoresizingMaskIntoConstraints="NO" id="4iX-CD-Qvm" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="239" y="181" width="52" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quan1.png" translatesAutoresizingMaskIntoConstraints="NO" id="kTB-5b-Aj9" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="188" y="317" width="46" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quan2.png" translatesAutoresizingMaskIntoConstraints="NO" id="6xZ-LK-poi" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="245" y="317" width="46" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mu2.png" translatesAutoresizingMaskIntoConstraints="NO" id="KLF-V1-Oa5" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="286" y="115" width="47" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kinh2.png" translatesAutoresizingMaskIntoConstraints="NO" id="9ef-oW-xWD" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="276" y="195" width="66" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kinh3.png" translatesAutoresizingMaskIntoConstraints="NO" id="5zd-Pd-n09" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="282" y="249" width="66" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bot1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wsg-Tg-4Nv" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="270" y="519" width="31" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bot2.png" translatesAutoresizingMaskIntoConstraints="NO" id="lSp-E2-kf9" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="298" y="519" width="31" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mu1.png" translatesAutoresizingMaskIntoConstraints="NO" id="bY0-Xx-Z34" customClass="Item" customModule="tuong_tac_da_cham_Change_clothes" customModuleProvider="target">
+                                <rect key="frame" x="276" y="45" width="53" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93.599999999999994" y="141.67916041979012"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ao1.png" width="245" height="371"/>
+        <image name="ao2.png" width="245" height="262"/>
+        <image name="ao3.png" width="203" height="151"/>
+        <image name="ao4.png" width="292" height="321"/>
+        <image name="bot1.png" width="103" height="313"/>
+        <image name="bot2.png" width="90" height="332"/>
+        <image name="cabinet.png" width="1104" height="1280"/>
+        <image name="giaydo1.png" width="48" height="78"/>
+        <image name="giaydo2.png" width="51" height="102"/>
+        <image name="images.jpeg" width="287" height="175"/>
+        <image name="kinh2.png" width="99" height="39"/>
+        <image name="kinh3.png" width="104" height="35"/>
+        <image name="model.png" width="335" height="995"/>
+        <image name="mu1.png" width="228" height="111"/>
+        <image name="mu2.png" width="170" height="101"/>
+        <image name="quan1.png" width="215" height="509"/>
+        <image name="quan2.png" width="215" height="509"/>
+    </resources>
+</document>
